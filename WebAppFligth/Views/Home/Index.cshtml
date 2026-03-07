@@ -1,0 +1,60 @@
+﻿@model WebAppFligth.ViewModels.HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Flights";
+}
+
+<h1 class="mb-4">Всички полети</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>От</th>
+            <th>До</th>
+            <th>Излитане</th>
+            <th>Продължителност</th>
+            <th>Самолет</th>
+            <th>Детайли</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var flight in Model.Flights)
+        {
+            <tr>
+                <td>@flight.From</td>
+                <td>@flight.To</td>
+                <td>@flight.DepartureTime.ToString("dd.MM.yyyy HH:mm")</td>
+                <td>@flight.Duration.ToString(@"hh\:mm")</td>
+                <td>@flight.TypePlane</td>
+                <td>
+                    <a asp-controller="Flights"
+                       asp-action="Details"
+                       asp-route-id="@flight.Id"
+                       class="btn btn-sm btn-primary">
+                        Details
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.TotalPages > 1)
+{
+    <nav>
+        <ul class="pagination">
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a class="page-link"
+                       asp-controller="Home"
+                       asp-action="Index"
+                       asp-route-page="@i"
+                       asp-route-pageSize="@Model.PageSize">
+                        @i
+                    </a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
