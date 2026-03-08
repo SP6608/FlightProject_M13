@@ -14,7 +14,7 @@
             <th>Излитане</th>
             <th>Продължителност</th>
             <th>Самолет</th>
-            <th>Детайли</th>
+            <th>Действия</th>
         </tr>
     </thead>
     <tbody>
@@ -32,6 +32,13 @@
                        asp-route-id="@flight.Id"
                        class="btn btn-sm btn-primary">
                         Details
+                    </a>
+
+                    <a asp-controller="Reservations"
+                       asp-action="Create"
+                       asp-route-flightId="@flight.Id"
+                       class="btn btn-sm btn-success">
+                        Reserve
                     </a>
                 </td>
             </tr>
