@@ -3,36 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\viewmodels\\reservationdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\viewmodels\\reservationdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\viewmodels\\passengerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\viewmodels\\passengerdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\viewmodels\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\viewmodels\\reservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\viewmodels\\reservationindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\viewmodels\\reservationindexviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,105 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Views\\Reservations\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebAppFligth\\Views\\Reservations\\Details.cshtml",
-              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Views\\Reservations\\Details.cshtml",
-              "RelativeToolTip": "WebAppFligth\\Views\\Reservations\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-08T19:58:04.945Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReservationDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\ViewModels\\ReservationDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "WebAppFligth\\ViewModels\\ReservationDetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\ViewModels\\ReservationDetailsViewModel.cs",
-              "RelativeToolTip": "WebAppFligth\\ViewModels\\ReservationDetailsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:56:20.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PassengerDetailsViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\ViewModels\\PassengerDetailsViewModel.cs",
-              "RelativeDocumentMoniker": "WebAppFligth\\ViewModels\\PassengerDetailsViewModel.cs",
-              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\ViewModels\\PassengerDetailsViewModel.cs",
-              "RelativeToolTip": "WebAppFligth\\ViewModels\\PassengerDetailsViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:55:31.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebAppFligth\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebAppFligth\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABsAAACHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-08T19:48:15.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ReservationsController.cs",
-              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Controllers\\ReservationsController.cs",
-              "RelativeDocumentMoniker": "WebAppFligth\\Controllers\\ReservationsController.cs",
-              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Controllers\\ReservationsController.cs",
-              "RelativeToolTip": "WebAppFligth\\Controllers\\ReservationsController.cs",
-              "ViewState": "AgIAAIoAAAAAAAAAAAAmwLMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:36:52.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Views\\Reservations\\Index.cshtml",
               "RelativeDocumentMoniker": "WebAppFligth\\Views\\Reservations\\Index.cshtml",
               "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Views\\Reservations\\Index.cshtml",
               "RelativeToolTip": "WebAppFligth\\Views\\Reservations\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-08T19:34:30.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReservationIndexViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\ViewModels\\ReservationIndexViewModel.cs",
-              "RelativeDocumentMoniker": "WebAppFligth\\ViewModels\\ReservationIndexViewModel.cs",
-              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\ViewModels\\ReservationIndexViewModel.cs",
-              "RelativeToolTip": "WebAppFligth\\ViewModels\\ReservationIndexViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:31:46.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ReservationViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\ViewModels\\ReservationViewModel.cs",
-              "RelativeDocumentMoniker": "WebAppFligth\\ViewModels\\ReservationViewModel.cs",
-              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\ViewModels\\ReservationViewModel.cs",
-              "RelativeToolTip": "WebAppFligth\\ViewModels\\ReservationViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T19:30:48.806Z",
+              "WhenOpened": "2026-03-08T20:10:22.259Z",
               "EditorCaption": ""
             }
           ]
