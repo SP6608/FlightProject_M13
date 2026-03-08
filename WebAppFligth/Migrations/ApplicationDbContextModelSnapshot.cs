@@ -47,6 +47,20 @@ namespace WebAppFligth.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "6f2d5d5c-7d4f-4e6a-9d5a-1e7c1a2f4a11",
+                            Name = "Admin",
+                            NormalizedName = "ADMIN"
+                        },
+                        new
+                        {
+                            Id = "9a1c6c8e-3c5b-4a9a-b0a2-6c8d7f9b2e21",
+                            Name = "Employee",
+                            NormalizedName = "EMPLOYEE"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -283,6 +297,73 @@ namespace WebAppFligth.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Flights");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            BusinessSeat = 20,
+                            DepartureTime = new DateTime(2026, 4, 10, 8, 30, 0, 0, DateTimeKind.Unspecified),
+                            EconomySeat = 150,
+                            From = "Sofia",
+                            LandingTime = new DateTime(2026, 4, 10, 11, 30, 0, 0, DateTimeKind.Unspecified),
+                            PilotName = "Ivan Petrov",
+                            PlaneNumber = "LZ-A320",
+                            To = "London",
+                            TypePlane = "Airbus A320"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            BusinessSeat = 18,
+                            DepartureTime = new DateTime(2026, 4, 12, 14, 15, 0, 0, DateTimeKind.Unspecified),
+                            EconomySeat = 140,
+                            From = "Sofia",
+                            LandingTime = new DateTime(2026, 4, 12, 16, 15, 0, 0, DateTimeKind.Unspecified),
+                            PilotName = "Georgi Ivanov",
+                            PlaneNumber = "LZ-B737",
+                            To = "Berlin",
+                            TypePlane = "Boeing 737"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            BusinessSeat = 22,
+                            DepartureTime = new DateTime(2026, 4, 15, 9, 45, 0, 0, DateTimeKind.Unspecified),
+                            EconomySeat = 160,
+                            From = "Sofia",
+                            LandingTime = new DateTime(2026, 4, 15, 12, 15, 0, 0, DateTimeKind.Unspecified),
+                            PilotName = "Dimitar Kolev",
+                            PlaneNumber = "LZ-A321",
+                            To = "Paris",
+                            TypePlane = "Airbus A321"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            BusinessSeat = 20,
+                            DepartureTime = new DateTime(2026, 4, 18, 7, 20, 0, 0, DateTimeKind.Unspecified),
+                            EconomySeat = 150,
+                            From = "Sofia",
+                            LandingTime = new DateTime(2026, 4, 18, 9, 10, 0, 0, DateTimeKind.Unspecified),
+                            PilotName = "Petar Stoyanov",
+                            PlaneNumber = "LZ-A322",
+                            To = "Rome",
+                            TypePlane = "Airbus A320"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            BusinessSeat = 20,
+                            DepartureTime = new DateTime(2026, 4, 20, 13, 0, 0, 0, DateTimeKind.Unspecified),
+                            EconomySeat = 155,
+                            From = "Sofia",
+                            LandingTime = new DateTime(2026, 4, 20, 16, 30, 0, 0, DateTimeKind.Unspecified),
+                            PilotName = "Nikolay Dimitrov",
+                            PlaneNumber = "LZ-B738",
+                            To = "Madrid",
+                            TypePlane = "Boeing 737"
+                        });
                 });
 
             modelBuilder.Entity("WebAppFligth.Models.Passenger", b =>
