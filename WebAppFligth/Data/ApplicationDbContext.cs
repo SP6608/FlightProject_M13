@@ -18,5 +18,6 @@ namespace WebAppFligth.Data
         public virtual DbSet<Flight> Flights { get; set; } = null!;
         public virtual DbSet<Reservation> Reservations { get; set; } = null!;
         public virtual DbSet<Passenger> Passengers {  get; set; } = null!;
+        public virtual DbSet<VacationRequest> VacationRequests { get; set; } = null!;
     }
 }

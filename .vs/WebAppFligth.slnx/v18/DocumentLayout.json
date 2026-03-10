@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\models\\vacantiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\models\\vacantiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|c:\\users\\pc home\\source\\repos\\webappfligth\\webappfligth\\models\\vacationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBEC3C06-D60B-9C4D-C5F9-4696113856AF}|WebAppFligth\\WebAppFligth.csproj|solutionrelative:webappfligth\\models\\vacationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +31,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Views\\Reservations\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebAppFligth\\Views\\Reservations\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Views\\Reservations\\Index.cshtml",
-              "RelativeToolTip": "WebAppFligth\\Views\\Reservations\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-08T20:10:22.259Z",
+              "Title": "VacantionType.cs",
+              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Models\\VacantionType.cs",
+              "RelativeDocumentMoniker": "WebAppFligth\\Models\\VacantionType.cs",
+              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Models\\VacantionType.cs",
+              "RelativeToolTip": "WebAppFligth\\Models\\VacantionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T19:51:07.176Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "WebAppFligth\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "WebAppFligth\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T20:46:53.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VacationRequest.cs",
+              "DocumentMoniker": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Models\\VacationRequest.cs",
+              "RelativeDocumentMoniker": "WebAppFligth\\Models\\VacationRequest.cs",
+              "ToolTip": "C:\\Users\\PC Home\\source\\repos\\WebAppFligth\\WebAppFligth\\Models\\VacationRequest.cs",
+              "RelativeToolTip": "WebAppFligth\\Models\\VacationRequest.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T20:19:24.306Z"
             }
           ]
         }
