@@ -1,0 +1,33 @@
+﻿@model WebAppFligth.ViewModels.FlightDetailsViewModel
+
+@{
+    ViewData["Title"] = "Flight Details";
+}
+
+<h1 class="mb-4">Детайли за полет</h1>
+
+<div class="card">
+    <div class="card-body">
+        <p><strong>От:</strong> @Model.From</p>
+        <p><strong>До:</strong> @Model.To</p>
+        <p><strong>Излитане:</strong> @Model.DepartureTime.ToString("dd.MM.yyyy HH:mm")</p>
+        <p><strong>Кацане:</strong> @Model.LandingTime.ToString("dd.MM.yyyy HH:mm")</p>
+        <p><strong>Продължителност:</strong> @Model.Duration.ToString(@"hh\:mm")</p>
+        <p><strong>Тип самолет:</strong> @Model.TypePlane</p>
+        <p><strong>Номер на самолет:</strong> @Model.PlaneNumber</p>
+        <p><strong>Пилот:</strong> @Model.PilotName</p>
+        <p><strong>Свободни места Economy:</strong> @Model.EconomySeat</p>
+        <p><strong>Свободни места Business:</strong> @Model.BusinessSeat</p>
+
+        <a asp-controller="Reservations"
+           asp-action="Create"
+           asp-route-flightId="@Model.Id"
+           class="btn btn-success">
+            Reserve
+        </a>
+
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary">
+            Back
+        </a>
+    </div>
+</div>

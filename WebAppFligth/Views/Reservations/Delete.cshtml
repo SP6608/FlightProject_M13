@@ -1,0 +1,32 @@
+﻿@model WebAppFligth.ViewModels.ReservationViewModel
+
+@{
+    ViewData["Title"] = "Delete Reservation";
+}
+
+<h2 class="mb-4 text-danger">Изтриване на резервация</h2>
+
+<div class="alert alert-warning">
+    Сигурни ли сте, че искате да изтриете тази резервация?
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Полет:</strong> @Model.FlightRoute</p>
+        <p><strong>Излитане:</strong> @Model.DepartureTime.ToString("dd.MM.yyyy HH:mm")</p>
+        <p><strong>Брой пътници:</strong> @Model.PassengersCount</p>
+    </div>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <button type="submit" class="btn btn-danger">
+        Delete
+    </button>
+
+    <a asp-action="Index" class="btn btn-secondary">
+        Cancel
+    </a>
+</form>

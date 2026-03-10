@@ -1,0 +1,60 @@
+﻿@model WebAppFligth.ViewModels.ReservationDetailsViewModel
+
+@{
+    ViewData["Title"] = "Reservation Details";
+}
+
+<h1 class="mb-4">Детайли за резервация</h1>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <p><strong>Номер:</strong> @Model.Id</p>
+        <p><strong>Email:</strong> @Model.Email</p>
+        <p><strong>Полет:</strong> @Model.FlightRoute</p>
+        <p><strong>Излитане:</strong> @Model.DepartureTime.ToString("dd.MM.yyyy HH:mm")</p>
+        <p><strong>Потвърдена:</strong> @(Model.IsConfirmed ? "Да" : "Не")</p>
+    </div>
+</div>
+
+<h3 class="mb-3">Пътници</h3>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Име</th>
+            <th>Бащино име</th>
+            <th>Фамилия</th>
+            <th>ЕГН</th>
+            <th>Телефон</th>
+            <th>Националност</th>
+            <th>Тип билет</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Passengers.Any())
+        {
+            @foreach (var passenger in Model.Passengers)
+            {
+                <tr>
+                    <td>@passenger.FirstName</td>
+                    <td>@passenger.MiddleName</td>
+                    <td>@passenger.LastName</td>
+                    <td>@passenger.Egn</td>
+                    <td>@passenger.PhoneNumber</td>
+                    <td>@passenger.Nationality</td>
+                    <td>@passenger.TicketType</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="7" class="text-center">Няма пътници за тази резервация.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Reservations" asp-action="Index" class="btn btn-secondary">
+    Back
+</a>

@@ -1,0 +1,97 @@
+﻿@model WebAppFligth.ViewModels.ReservationIndexViewModel
+
+@{
+    ViewData["Title"] = "Reservations";
+}
+
+<h1 class="mb-4">Резервации</h1>
+
+<form method="get" asp-action="Index" class="mb-3">
+    <div class="row">
+        <div class="col-md-4">
+            <input asp-for="Email" class="form-control" placeholder="Филтър по email" />
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary">Търси</button>
+        </div>
+    </div>
+</form>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Email</th>
+            <th>Полет</th>
+            <th>Излитане</th>
+            <th>Брой пътници</th>
+            <th>Потвърдена</th>
+            <th>Детайли</th>
+            @if (User.IsInRole("Admin"))
+            {
+                <th>Delete</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Reservations.Any())
+        {
+            @foreach (var reservation in Model.Reservations)
+            {
+                <tr>
+                    <td>@reservation.Id</td>
+                    <td>@reservation.Email</td>
+                    <td>@reservation.FlightRoute</td>
+                    <td>@reservation.DepartureTime.ToString("dd.MM.yyyy HH:mm")</td>
+                    <td>@reservation.PassengersCount</td>
+                    <td>@(reservation.IsConfirmed ? "Да" : "Не")</td>
+                    <td>
+                        <a asp-controller="Reservations"
+                           asp-action="Details"
+                           asp-route-id="@reservation.Id"
+                           class="btn btn-sm btn-primary">
+                            Details
+                        </a>
+                    </td>
+                    <td>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a asp-controller="Reservations"
+                               asp-action="Delete"
+                               asp-route-id="@reservation.Id"
+                               class="btn btn-danger btn-sm">
+                                Delete
+                            </a>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="7" class="text-center">Няма намерени резервации.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (Model.TotalPages > 1)
+{
+    <nav>
+        <ul class="pagination">
+            @for (int i = 1; i <= Model.TotalPages; i++)
+            {
+                <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
+                    <a class="page-link"
+                       asp-action="Index"
+                       asp-route-page="@i"
+                       asp-route-pageSize="@Model.PageSize"
+                       asp-route-email="@Model.Email">
+                        @i
+                    </a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
